@@ -27,10 +27,11 @@ p{
 }
 
 a{
-    color:white;
+    color:#fce25b;
     text-decoration:none;
 }
 
 a:hover{
+    cursor:pointer;
     color:#67cfa2;
 }
