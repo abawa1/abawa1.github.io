@@ -1,6 +1,11 @@
 body{
     font-family:Helvetica, sans-serif;
-    background-color:#1c3359;
+    /*background-color:#1c3359;*/
+	/*background:linear-gradient(to top right,#1c3359,#32a848);*/
+	background:linear-gradient(to top right, red,purple 30%,blue 80%, cyan);
+	/*background:linear-gradient(to top right,red 0%, blue 50%, green 100%);*/
+	background-repeat:no-repeat;
+	background-attachment:fixed;
     color:white;
 }
 
@@ -14,6 +19,7 @@ h1,h2{
 h1{
     font-size:56px;
     font-weight:50;
+	transition: all 0.3s;
 }
 
 h1:hover{
@@ -35,3 +41,16 @@ a:hover{
     cursor:pointer;
     color:#67cfa2;
 }
+/* 
+#about{
+    width:100%;
+    text-align:center;
+    font-size:50px;
+    border: 1px solid white;
+}
+
+#about-section{
+    border: 1px solid white;
+    margin-top:30%;
+    width:100%;
+} */
